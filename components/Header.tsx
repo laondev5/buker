@@ -43,7 +43,7 @@ const callToAction = [
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="w-full shadow-md sticky top-0 left-0">
+    <header className="w-full shadow-md sticky top-0 left-0 ">
       <nav className="mx-auto flex max-w-7xl justify-between items-center p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
