@@ -13,7 +13,7 @@ const ImageArea = () => {
         </p>
       </div>
 
-      <div className="flex overflow-x-scroll space-x-4 py-6">
+      <div className="flex overflow-x-scroll scroll-bar-hidden space-x-4 py-6">
         {trending_data.map((item) => (
           <div key={item.id} className="space-y-1 shrink-0 cursor-pointer">
             <img
